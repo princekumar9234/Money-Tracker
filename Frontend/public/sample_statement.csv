@@ -1,0 +1,15 @@
+Date,Description,Debit,Credit,Balance,ReferenceNumber,PaymentMode
+2026-09-01,Monthly Salary Credit - TechCorp Solutions,,145000,185000,NEFT/N1001092834,NEFT
+2026-09-03,Electricity Bill Payment - BESCOM,3200,,181800,UPI/2614150912,UPI
+2026-09-05,Nature Fresh Supermarket Grocery Purchase,4850,,176950,POS/98234710,CARD
+2026-09-08,Trip reimbursement from Rahul,,12000,188950,UPI/2011204921,UPI
+2026-09-10,SIP Auto-Debit - Zerodha Fund House,25000,,163950,ACH/1810008432,ACH
+2026-09-15,Urgent Consulting Advance Transfer - Apex Global,,280000,443950,RTGS/R1210158902,RTGS
+2026-09-15,Equipment procurement distribution - Orbit Tech,120000,,323950,IMPS/1210557431,IMPS
+2026-09-15,Subcontractor settlement part 2 - Horizon Advisory,130000,,193950,IMPS/1211309812,IMPS
+2026-09-20,Consulting milestone tranches A - Silverline,,49500,243450,IMPS/0714108392,IMPS
+2026-09-20,Consulting milestone tranches B - Silverline,,49500,292950,IMPS/0714259834,IMPS
+2026-09-20,Vendor payment payout to Zenith Logistics,85000,,207950,NEFT/0715059910,NEFT
+2026-09-23,The Olive Bistro Family Dinner,3600,,204350,UPI/0420108341,UPI
+2026-09-25,ATM Cash Withdrawal HDFC Branch 401,20000,,184350,ATM/0202458923,CASH
+2026-09-26,Client travel advance return - Kunal,,18500,202850,UPI/0116209844,UPI

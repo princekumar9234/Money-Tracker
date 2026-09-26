@@ -1,0 +1,40 @@
+{
+  "name": "moneytrace-backend",
+  "version": "1.0.0",
+  "description": "MONEYTRACE AI - AI-powered transaction intelligence & suspicious-transaction analysis platform",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "moneytrace",
+    "financial-intelligence",
+    "transaction-analysis",
+    "risk-detection",
+    "ai"
+  ],
+  "author": "MoneyTrace AI Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dns": "^0.2.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.14",
+    "papaparse": "^5.5.2",
+    "pdf-parse": "^1.1.1",
+    "validator": "^13.12.0",
+    "xlsx": "^0.18.5"
+  }
+}
