@@ -14,6 +14,7 @@ import traceRoutes from './src/routes/trace.routes.js';
 import aiRoutes from './src/routes/ai.routes.js';
 import reportRoutes from './src/routes/report.routes.js';
 import userRoutes from './src/routes/user.routes.js';
+import morgan from 'morgan';
 
 const app = express();
 
@@ -24,6 +25,7 @@ app.use(
     crossOriginEmbedderPolicy: false,
   })
 );
+app.use(morgan("dev"))
 
 // CORS configuration
 const allowedOrigins = [

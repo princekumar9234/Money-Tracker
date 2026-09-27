@@ -114,13 +114,46 @@ export const parseUploadedFile = async (req, res, next) => {
     } else if (fileExt === 'pdf') {
       const pdfData = await pdfParse(buffer);
       const text = pdfData.text || '';
+      console.log('--- PDF TEXT EXTRACTED (first 500 chars) ---');
+      console.log(text.substring(0, 500));
+      console.log('--------------------------------------------');
       const lines = text.split('\n').filter((l) => l.trim().length > 0);
 
       // Intelligent regex line parsing for bank statement lines (Date, description, amounts)
-      const dateRegex = /(\d{1,2}[/-]\d{1,2}[/-]\d{2,4})/;
+      // Matches DD/MM/YYYY, DD-MM-YYYY, DD Aug YYYY, etc.
+      const dateRegex = /(\d{1,2}[/-]\d{1,2}[/-]\d{2,4}|\d{1,2}\s+[a-zA-Z]{3,}\s+\d{2,4})/;
       const amountRegex = /([\d,]+\.\d{2})/g;
 
-      for (const line of lines) {
+      let currentPhonePeDate = null;
+
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+
+        // 1. PhonePe Multi-line Format Check
+        const phonePeDateMatch = line.match(/^([A-Z][a-z]{2} \d{1,2}, \d{4})$/);
+        if (phonePeDateMatch) {
+          currentPhonePeDate = phonePeDateMatch[1];
+          continue;
+        }
+
+        const phonePeTxnMatch = line.match(/^(DEBIT|CREDIT)₹([\d,]+(?:\.\d+)?)(.*)/);
+        if (phonePeTxnMatch && currentPhonePeDate) {
+          const type = phonePeTxnMatch[1].toLowerCase();
+          const amount = parseFloat(phonePeTxnMatch[2].replace(/,/g, ''));
+          const desc = phonePeTxnMatch[3].trim() || 'PhonePe Transaction';
+          
+          rawRows.push({
+            date: currentPhonePeDate,
+            description: desc,
+            amount: amount,
+            debit: type === 'debit' ? amount : 0,
+            credit: type === 'credit' ? amount : 0,
+            balance: 0,
+          });
+          continue;
+        }
+
+        // 2. Standard Single-line Format Check
         const dateMatch = line.match(dateRegex);
         const amounts = line.match(amountRegex);
         if (dateMatch && amounts && amounts.length >= 1) {
@@ -137,6 +170,14 @@ export const parseUploadedFile = async (req, res, next) => {
             balance: cleanAmounts[cleanAmounts.length - 1] || 0,
           });
         }
+      }
+      
+      if (rawRows.length === 0 && text.length > 0) {
+         import('fs').then(fs => fs.writeFileSync('pdf_debug.txt', text));
+         console.log('No rows matched. Check regex against the text above.');
+         throw ApiError.badRequest('Could not extract rows. Statement text has been dumped to backend/pdf_debug.txt for debugging.');
+      } else if (rawRows.length === 0) {
+         throw ApiError.badRequest('Failed to extract text. Ensure the PDF is not password protected.');
       }
     } else {
       throw ApiError.badRequest(`Unsupported file format .${fileExt}. Please upload CSV, XLSX, or PDF.`);
@@ -176,6 +217,23 @@ export const getTransactions = async (req, res, next) => {
   try {
     const result = await transactionService.getTransactions(req.user._id, req.query);
     return ApiResponse.success(res, 'Transactions fetched successfully', result.transactions, 200, result.meta);
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const getSuspiciousTransactions = async (req, res, next) => {
+  try {
+    const { Transaction } = await import('../models/transaction.model.js');
+    const transactions = await Transaction.find({
+      userId: req.user._id,
+      $or: [
+        { riskLevel: { $in: ['Medium Risk', 'High Risk', 'Needs Review'] } },
+        { isFlagged: true },
+      ],
+    }).sort({ date: -1 }).limit(100);
+
+    return ApiResponse.success(res, 'Suspicious transactions fetched', { transactions });
   } catch (error) {
     next(error);
   }

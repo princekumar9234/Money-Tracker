@@ -1,0 +1,394 @@
+
+
+Transaction Statement for 9234096840
+28 Aug, 2026 - 27 Sep, 2026
+DateTransaction DetailsTypeAmount
+Sep 26, 2026
+09:59 AM
+DEBIT₹25Paid to Shivam Bhaiya
+Transaction ID T2609260959149962325445
+UTR No. 326375500390
+Paid by
+XXXXXXXXXXX3630
+Sep 25, 2026
+05:57 PM
+CREDIT₹100Received from ******1026
+Transaction ID T2609251757289920683284
+UTR No. 434967856552
+Credited to
+XXXXXXXXXXX3630
+Sep 25, 2026
+05:49 PM
+DEBIT₹70Paid to Rajendra Kumar saw
+Transaction ID T2609251749512768017693
+UTR No. 990697198591
+Paid by
+XXXXXXXXXXX3630
+Sep 25, 2026
+05:33 PM
+CREDIT₹900Received from ******1026
+Transaction ID T2609251733538015845585
+UTR No. 836216728314
+Credited to
+XXXXXXXXXXX3630
+Sep 25, 2026
+12:21 PM
+DEBIT₹100Paid to Saurabh sinha CSE
+Transaction ID T2609251221561313402376
+UTR No. 258723845607
+Paid by
+XXXXXXXXXXX3630
+Sep 25, 2026
+09:31 AM
+DEBIT₹25Paid to Deepak electronics
+Transaction ID T2609250931537833958905
+UTR No. 380329868762
+Paid by
+XXXXXXXXXXX3630
+Sep 24, 2026
+08:47 AM
+DEBIT₹50Paid to Saurabh sinha CSE
+Transaction ID T2609240847026426733902
+UTR No. 733499991453
+Paid by
+XXXXXXXXXXX3630
+Page 1 of 7
+This is a system generated statement. For any queries, contact us athttps://support.phonepe.com/statement.
+
+DateTransaction DetailsTypeAmount
+Sep 24, 2026
+08:46 AM
+CREDIT₹50Received from Vipin E
+Transaction ID T2609240846361264561822
+UTR No. 413845925448
+Credited to
+XXXXXXXXXXX3630
+Sep 24, 2026
+08:44 AM
+DEBIT₹50Paid to Vipin E
+Transaction ID T2609240844547302978537
+UTR No. 356094611053
+Paid by
+XXXXXXXXXXX3630
+Sep 23, 2026
+06:39 PM
+DEBIT₹120Paid to Mr MUKESH KUMAR
+Transaction ID T2609231839308544928816
+UTR No. 921072049230
+Paid by
+XXXXXXXXXXX3630
+Sep 23, 2026
+03:49 PM
+DEBIT₹600Paid to Polytechnic general Store 
+Transaction ID T2609231549350959558705
+UTR No. 318790538593
+Paid by
+XXXXXXXXXXX3630
+Sep 23, 2026
+02:15 PM
+DEBIT₹5Paid to RAUNAK KUMAR
+Transaction ID T2609231415422451349048
+UTR No. 403864218248
+Paid by
+XXXXXXXXXXX3630
+Sep 22, 2026
+06:19 PM
+DEBIT₹30Paid to Rajendra Kumar saw
+Transaction ID T2609221819357855809085
+UTR No. 275339520301
+Paid by
+XXXXXXXXXXX3630
+Sep 21, 2026
+01:15 PM
+DEBIT₹45Paid to Pankaj ji samose6202043279
+Transaction ID T2609211315027941386787
+UTR No. 607248257387
+Paid by
+XXXXXXXXXXX3630
+Sep 20, 2026
+07:11 PM
+DEBIT₹45Paid to MS MUKESH KIRANA  GALLA DUKAN
+Transaction ID T2609201911370842328708
+UTR No. 579266602080
+Paid by
+XXXXXXXXXXX3630
+Page 2 of 7
+This is a system generated statement. For any queries, contact us athttps://support.phonepe.com/statement.
+
+DateTransaction DetailsTypeAmount
+Sep 19, 2026
+02:58 PM
+DEBIT₹20Paid to YOGESH  KUMAR
+Transaction ID T2609191458537818089863
+UTR No. 137690479606
+Paid by
+XXXXXXXXXXX3630
+Sep 19, 2026
+02:02 PM
+DEBIT₹30Paid to Pankaj ji samose6202043279
+Transaction ID T2609191402092878128104
+UTR No. 117344132530
+Paid by
+XXXXXXXXXXX3630
+Sep 19, 2026
+11:14 AM
+CREDIT₹120Received from Mr Vinit Prakash
+Transaction ID T2609191114503460671075
+UTR No. 614376115462
+Credited to
+XXXXXXXXXXX3630
+Sep 19, 2026
+09:39 AM
+DEBIT₹20Paid to Saurabh sinha CSE
+Transaction ID T2609190939396885795241
+UTR No. 543222942991
+Paid by
+XXXXXXXXXXX3630
+Sep 18, 2026
+10:06 AM
+DEBIT₹10Paid to SHIVAM KUMAR
+Transaction ID T2609181006451360649373
+UTR No. 814464806508
+Paid by
+XXXXXXXXXXX3630
+Sep 16, 2026
+02:19 PM
+DEBIT₹20Paid to AYUSH PANDEY
+Transaction ID T2609161418589370834433
+UTR No. 018605909676
+Paid by
+XXXXXXXXXXX3630
+Sep 15, 2026
+07:39 PM
+DEBIT₹10Paid to Suraj golgappa
+Transaction ID T2609151939443976728618
+UTR No. 819579579065
+Paid by
+XXXXXXXXXXX3630
+Sep 15, 2026
+07:35 PM
+DEBIT₹38Paid to GOLU KUMAR
+Transaction ID T2609151935003368050514
+UTR No. 632276583529
+Paid by
+XXXXXXXXXXX3630
+Page 3 of 7
+This is a system generated statement. For any queries, contact us athttps://support.phonepe.com/statement.
+
+DateTransaction DetailsTypeAmount
+Sep 14, 2026
+07:29 PM
+DEBIT₹29Paid to JAMILA NESHA
+Transaction ID T2609141929437695706444
+UTR No. 052904064669
+Paid by
+XXXXXXXXXXX3630
+Sep 14, 2026
+12:55 PM
+DEBIT₹100Paid to MS MUKESH KIRANA  GALLA DUKAN
+Transaction ID T2609141255391067903261
+UTR No. 092272553951
+Paid by
+XXXXXXXXXXX3630
+Sep 14, 2026
+11:26 AM
+DEBIT₹70Paid to Saurabh sinha CSE
+Transaction ID T2609141126013950595048
+UTR No. 779083066676
+Paid by
+XXXXXXXXXXX3630
+Sep 13, 2026
+11:16 AM
+DEBIT₹60Paid to Vipin E
+Transaction ID T2609131116156671404418
+UTR No. 971675936867
+Paid by
+XXXXXXXXXXX3630
+Sep 12, 2026
+12:43 PM
+CREDIT₹340Received from VISHNU KUMAR
+Transaction ID T2609121243025609716313
+UTR No. 004915339235
+Credited to
+XXXXXXXXXXX3630
+Sep 11, 2026
+10:20 AM
+DEBIT₹1,414Paid to Krish Bro
+Transaction ID T2609111020437657169099
+UTR No. 037700287070
+Paid by
+XXXXXXXXXXX3630
+Sep 11, 2026
+09:44 AM
+DEBIT₹50Paid to Saurabh sinha CSE
+Transaction ID T2609110943599127885401
+UTR No. 787079499925
+Paid by
+XXXXXXXXXXX3630
+Sep 10, 2026
+01:49 PM
+DEBIT₹25Paid to Mithleshkumarmehta
+Transaction ID T2609101349409861980875
+UTR No. 879626916555
+Paid by
+XXXXXXXXXXX3630
+Page 4 of 7
+This is a system generated statement. For any queries, contact us athttps://support.phonepe.com/statement.
+
+DateTransaction DetailsTypeAmount
+Sep 10, 2026
+01:48 PM
+DEBIT₹50Paid to Saurabh sinha CSE
+Transaction ID T2609101348572084773056
+UTR No. 909568759054
+Paid by
+XXXXXXXXXXX3630
+Sep 09, 2026
+01:26 PM
+DEBIT₹200Paid to Vipin E
+Transaction ID T2609091326335502791923
+UTR No. 538822820884
+Paid by
+XXXXXXXXXXX3630
+Sep 09, 2026
+10:41 AM
+DEBIT₹200Paid to Polytechnic general Store 
+Transaction ID T2609091041504343011232
+UTR No. 264739710051
+Paid by
+XXXXXXXXXXX3630
+Sep 06, 2026
+07:34 PM
+DEBIT₹80Paid to Rajendra Kumar saw
+Transaction ID T2609061934301099533119
+UTR No. 792688737906
+Paid by
+XXXXXXXXXXX3630
+Sep 06, 2026
+06:59 PM
+DEBIT₹10Paid to Mukesh Kirana and Galla Dukan
+Transaction ID T2609061859472845513236
+UTR No. 874023756802
+Paid by
+XXXXXXXXXXX3630
+Sep 06, 2026
+06:52 PM
+DEBIT₹40Paid to 9262609266ptyes
+Transaction ID T2609061852098761694821
+UTR No. 492420362070
+Paid by
+XXXXXXXXXXX3630
+Sep 05, 2026
+10:21 AM
+DEBIT₹10Paid to MANTU KUMAR
+Transaction ID T2609051021411385818905
+UTR No. 714816695069
+Paid by
+XXXXXXXXXXX3630
+Sep 05, 2026
+10:21 AM
+DEBIT₹50Paid to MANTU KUMAR
+Transaction ID T2609051021064151196181
+UTR No. 557037984647
+Paid by
+XXXXXXXXXXX3630
+Page 5 of 7
+This is a system generated statement. For any queries, contact us athttps://support.phonepe.com/statement.
+
+DateTransaction DetailsTypeAmount
+Sep 03, 2026
+08:42 PM
+CREDIT₹1,500Received from Krish Bro
+Transaction ID T2609032042421042733177
+UTR No. 540542040964
+Credited to
+XXXXXXXXXXX3630
+Sep 03, 2026
+04:11 PM
+DEBIT₹110Paid to VISHNU KUMAR
+Transaction ID T2609031611263062752010
+UTR No. 424436947024
+Paid by
+XXXXXXXXXXX3630
+Sep 02, 2026
+12:03 PM
+CREDIT₹120Received from Mr Vinit Prakash
+Transaction ID T2609021203417668310879
+UTR No. 313756072140
+Credited to
+XXXXXXXXXXX3630
+Sep 02, 2026
+11:06 AM
+DEBIT₹10Paid to Polytechnic canteen 
+Transaction ID T2609021106391624653967
+UTR No. 042322546040
+Paid by
+XXXXXXXXXXX3630
+Sep 01, 2026
+11:31 AM
+DEBIT₹40Paid to Polytechnic canteen 
+Transaction ID T2609011131572606585659
+UTR No. 279506967090
+Paid by
+XXXXXXXXXXX3630
+Aug 31, 2026
+04:06 PM
+CREDIT₹2,300Received from Arvind Dada
+Transaction ID T2608311606271339830007
+UTR No. 424916362295
+Credited to
+XXXXXXXXXXX3630
+Aug 31, 2026
+07:20 AM
+CREDIT₹20,000Received from Papa
+Transaction ID T2608310720354373540486
+UTR No. 581393848459
+Credited to
+XXXXXXXXXXX3630
+Aug 30, 2026
+05:18 PM
+DEBIT₹900Paid to AKSHAY KUMAR
+Transaction ID T2608301718574602197862
+UTR No. 964368375663
+Paid by
+XXXXXXXXXXX3630
+Page 6 of 7
+This is a system generated statement. For any queries, contact us athttps://support.phonepe.com/statement.
+
+DateTransaction DetailsTypeAmount
+Aug 30, 2026
+05:18 PM
+CREDIT₹900Received from Papa
+Transaction ID T2608301718049119830867
+UTR No. 109060538282
+Credited to
+XXXXXXXXXXX3630
+Aug 30, 2026
+12:44 PM
+DEBIT₹20Paid to AJAY  KUMAR DEO
+Transaction ID T2608301244042651426905
+UTR No. 729105024903
+Paid by
+XXXXXXXXXXX3630
+Aug 29, 2026
+12:36 PM
+DEBIT₹1,500Paid to KRISH KUMAR
+Transaction ID T2608291236495588774070
+UTR No. 201878437124
+Paid by
+XXXXXXXXXXX3630
+Aug 28, 2026
+07:38 PM
+DEBIT₹800Paid to Vipin E
+Transaction ID T2608281938406404713890
+UTR No. 210283199619
+Paid by
+XXXXXXXXXXX3630
+Page 7 of 7
+This is an automatically generated statement. Customer(s) are requested to immediately notify PhonePe in case
+of any errors in the statement at https://support.phonepe.com/statement and visit https://www.phonepe.com/
+terms-conditions/ for PhonePe Terms & Conditions and Privacy Policy.
+Disclaimer : Do not fall prey to fictitious offers of winning prizes, money circulation schemes and cheap funds,
+etc. through SMS, emails and calls. The contents of this email and document are confidential and intended for
+the recipient specified in this document. If you received this message by mistake, please inform PhonePe at
+https://support.phonepe.com/statement so that we can ensure the recipient's details are corrected.

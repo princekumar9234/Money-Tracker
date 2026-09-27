@@ -17,11 +17,11 @@ import {
 
 const navItems = [
   { name: 'Dashboard', to: '/dashboard', icon: LayoutDashboard },
-  { name: 'Upload Statement', to: '/upload-statement', icon: UploadCloud },
+  { name: 'Upload Statement', to: '/upload', icon: UploadCloud },
   { name: 'Transactions', to: '/transactions', icon: Receipt },
-  { name: 'Unusual Transactions', to: '/unusual-transactions', icon: AlertTriangle, badge: 'AI' },
+  { name: 'Unusual Transactions', to: '/unusual', icon: AlertTriangle, badge: 'AI' },
   { name: 'Money Flow Trace', to: '/trace', icon: GitBranch, highlight: true },
-  { name: 'AI Assistant', to: '/ai-assistant', icon: BotMessageSquare, badge: 'Agent' },
+  { name: 'AI Assistant', to: '/ai-agent', icon: BotMessageSquare, badge: 'Agent' },
   { name: 'AML Knowledge Base', to: '/knowledge-base', icon: BookOpen },
   { name: 'Audit Reports', to: '/reports', icon: FileText },
   { name: 'My Profile', to: '/profile', icon: User },

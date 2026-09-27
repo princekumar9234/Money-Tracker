@@ -3,10 +3,11 @@ import nodemailer from 'nodemailer';
 class EmailService {
   constructor() {
     this.transporter = null;
-    this.initTransporter();
   }
 
-  initTransporter() {
+  getTransporter() {
+    if (this.transporter) return this.transporter;
+    
     const host = process.env.EMAIL_HOST;
     const port = process.env.EMAIL_PORT;
     const user = process.env.EMAIL_USER;
@@ -19,10 +20,8 @@ class EmailService {
         secure: Number(port) === 465,
         auth: { user, pass },
       });
-    } else {
-      // In development or when credentials are not supplied, use console simulation
-      this.transporter = null;
     }
+    return this.transporter;
   }
 
   async sendVerificationEmail(email, name, token) {
@@ -54,9 +53,10 @@ class EmailService {
     console.log(`URL: ${verificationUrl}`);
     console.log(`======================================================\n`);
 
-    if (this.transporter) {
+    const transporter = this.getTransporter();
+    if (transporter) {
       try {
-        await this.transporter.sendMail({
+        await transporter.sendMail({
           from: `"MoneyTrace AI" <${process.env.EMAIL_USER || 'no-reply@moneytrace.ai'}>`,
           to: email,
           subject,
@@ -99,9 +99,10 @@ class EmailService {
     console.log(`URL: ${resetUrl}`);
     console.log(`======================================================\n`);
 
-    if (this.transporter) {
+    const transporter = this.getTransporter();
+    if (transporter) {
       try {
-        await this.transporter.sendMail({
+        await transporter.sendMail({
           from: `"MoneyTrace AI Security" <${process.env.EMAIL_USER || 'security@moneytrace.ai'}>`,
           to: email,
           subject,

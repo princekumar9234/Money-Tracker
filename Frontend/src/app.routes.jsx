@@ -40,7 +40,7 @@ export const AppRoutes = () => {
         <Route path="/reset-password/:token" element={<ResetPasswordPage />} />
       </Route>
 
-      <Route path="/verify-email/:token" element={<VerifyEmailPage />} />
+      <Route path="/verify-email" element={<VerifyEmailPage />} />
 
       {/* Protected Dashboard Routes */}
       <Route element={<ProtectedRoute><DashboardLayout /></ProtectedRoute>}>
