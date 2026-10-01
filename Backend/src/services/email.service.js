@@ -25,7 +25,7 @@ class EmailService {
   }
 
   async sendVerificationEmail(email, name, token) {
-    const clientUrl = process.env.CLIENT_URL || 'http://localhost:5173';
+    const clientUrl = process.env.CLIENT_URL || 'http://localhost:5174';
     const verificationUrl = `${clientUrl}/verify-email?token=${token}`;
 
     const subject = 'Verify your email - MoneyTrace AI';
